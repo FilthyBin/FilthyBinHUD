@@ -53,8 +53,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"55"
+		"ypos"			"55"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"0"	[$WIN32]
 		"tall"			"0"	[$WIN32]
@@ -62,6 +62,42 @@
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
+	}
+	"HealthBG"
+	{   
+	    "ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"540"
+		"tall"			"244"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"     "0 0 0 100"
+	}
+	"TeamIndicator"
+	{   
+	    "ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"91"
+		"ypos"			"39"
+		"zpos"			"2"
+		"wide"			"3"
+		"tall"			"40"
+		"autoResize"    "0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"         "../hud/color_panel_brown"
+  		"scaleImage"         "1"
+		"teambg_1"      "../hud/color_panel_brown"
+		"teambg_2"      "../hud/color_panel_red"
+		"teambg_3"      "../hud/color_panel_blu"
+		
+		"src_corner_height"    "40"
+		"src_corner_width"     "40"
+		"draw_corner_height"    "0"
+		"draw_corner_widht"     "0"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -77,8 +113,23 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"DolceVitaHeavyBold42"
-		"fgcolor"		"0 200 0 180"
+		"fgcolor"		"255 255 255 255"
 	}
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"3"
+		"ypos"			"o"	
+		"zpos"			"5"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"DolceVitaHeavyBold42"
+		"fgcolor"		"Orange"
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
