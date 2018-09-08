@@ -19,6 +19,14 @@ Scheme
 	Colors
 	{
 		// base colors
+		"Bl"                "0 0 0 255"
+		"Wh"                "255 255 255 255"
+		"Aqua" 				"0 125 100 150"
+		"DarkAqua"			"0 125 120 200"
+		"GreenAqua"			"0 182 100 150"
+		"AcrilicAqua"		"0 113 100 210"
+		"OliveAqua"			"0 85 51 255"
+		"SwampAqua"			"58 78 0 215"
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -54,6 +62,7 @@ Scheme
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
+		"GSolid"		 "76 175 34 255"
 		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
@@ -2894,19 +2903,6 @@ Scheme
 			}
 		}
 
-		ControllerHintText
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"15"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -3016,7 +3012,593 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//DolceVita Light
+		
+		DolceVita12
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Light"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita18
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Light"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita20
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita30
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Light"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		
+		//DolceVita Bold
+		
+		
+		DolceVitaHeavyBold16
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Heavy Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVitaHeavyBold18
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Heavy Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVitaHeavyBold20
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Heavy Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVitaHeavyBold30
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Heavy Bold"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVitaHeavyBold42
+		{
+			"1"
+			{
+				"name"		"Dolce Vita Heavy Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		//DolceVita Light
+		
+		DolceVita16
+		{
+			"1"
+			{
+				"name"		"Dolce Vita"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita18
+		{
+			"1"
+			{
+				"name"		"Dolce Vita"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita20
+		{
+			"1"
+			{
+				"name"		"Dolce Vita"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita30
+		{
+			"1"
+			{
+				"name"		"Dolce Vita"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		DolceVita36
+		{
+			"1"
+			{
+				"name"		"Dolce Vita"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilk 
+		
+		
+		Lemon16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemon72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilkboldie
+		
+		Lemonbold16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonbold72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilkboldieitalico
+		
+		Lemonboldita16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonboldita72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold italic"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilkitalico
+		
+		Lemonita16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonita72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk italic"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilkLux
+		
+		Lemonlight16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlight72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
+		//LemonMilkLuxViteliu
+		
+		Lemonlightita16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita20
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita26
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita42
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		Lemonlightita72
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk light italic"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
 	}
+	
+	
+	/////// You're the only one
+	
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5826,6 +6408,51 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font" "resource/fonts/Dolce_Vita.ttf"
+			"name" "Dolce Vita"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Dolce_Vita_Heavy_Bold.ttf"
+			"name" "Dolce Vita Heavy Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Dolce_Vita_Light.ttf"
+			"name" "Dolce Vita Light"
+		}
+		"11"
+		{
+			"font" "resource/fonts/LemonMilk.otf"
+			"name" "Lemon/Milk"
+		}
+		"12"
+		{
+			"font" "resource/fonts/LemonMilkbold.otf"
+			"name" "Lemon/Milk bold"
+		}
+		"13"
+		{
+			"font" "resource/fonts/LemonMilkbolditalic.otf"
+			"name" "Lemon/Milk bold italic"
+		}
+		"14"
+		{
+			"font" "resource/fonts/LemonMilkitalic.otf"
+			"name" "Lemon/Milk italic"
+		}
+		"15"
+		{
+			"font" "resource/fonts/LemonMilklight.otf"
+			"name" "Lemon/Milk light"
+		}
+		"16"
+		{
+			"font" "resource/fonts/LemonMilklightitalic.otf"
+			"name" "Lemon/Milk light italic"
 		}
 	}
 }
