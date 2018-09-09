@@ -63,11 +63,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
+		"xpos"			"50"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"200"
 		"visible"		"1"
 		
 		"PipeIcon"
@@ -91,7 +91,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"32"
-			"ypos"			"18"
+			"ypos"			"83"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -106,6 +106,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"LemonLight26"
+			"fgcolor"		"DarkAqua"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -139,8 +140,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"50"
+		"ypos"			"-18"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -170,7 +171,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"32"
-			"ypos"			"18"
+			"ypos"			"83"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -182,9 +183,10 @@
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"dulltext"		"1"
+			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"LemonLight26"
+			"fgcolor"		"DarkAqua"
 		}
 		"NumPipesLabelDropshadow"
 		{

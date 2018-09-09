@@ -55,16 +55,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
 	}
 	
 	HudMedicCharge
@@ -83,11 +78,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c75"	[$WIN32]
+		"xpos"			"c-100"	[$WIN32]
+		"ypos"			"c59"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"102"
-		"tall"			"8"
+		"wide"			"200"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -97,11 +92,11 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"0"
 		"enabled"		"0"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c75"	[$WIN32]
+		"xpos"			"c-100"	[$WIN32]
+		"ypos"			"c51"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"100"
-		"tall"			"8"
+		"wide"			"200"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -1019,9 +1014,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"ypos"			"c-50"	[$WIN32]
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"400"
 	}	
 
 	HudTeamGoal
