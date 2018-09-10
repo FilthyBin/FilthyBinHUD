@@ -75,7 +75,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override" 		"PurpleAqua"
+		"bgcolor_override" 		"Orange"
 	}
 	
 	"ItemEffectMeterLabel2"

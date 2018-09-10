@@ -46,7 +46,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"50"
-		"ypos"					"20"
+		"ypos"					"100"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"6"				
@@ -57,6 +57,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"PurpleAqua"
 	}				
 		
 	"PipesPresentPanel"
@@ -106,7 +107,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"LemonLight26"
-			"fgcolor"		"DarkAqua"
+			"fgcolor"		"PurpleAqua"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -186,7 +187,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"LemonLight26"
-			"fgcolor"		"DarkAqua"
+			"fgcolor"		"PurpleAqua"
 		}
 		"NumPipesLabelDropshadow"
 		{

@@ -35,7 +35,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Lemonita26"
+		"font"			"Lemonlight26"
+		"fgcolor_override" 	"ExpiredOliveAqua"
 	}
 
 	"IndividualChargesLabel"
@@ -68,7 +69,7 @@
 		"ypos"			"38"
 		"zpos"			"2"
 		"wide"			"150"
-		"tall"			"12"				
+		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
